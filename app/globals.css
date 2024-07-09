@@ -13,14 +13,20 @@ main {
   padding: 1rem;
 }
 
-h1, h2 {
-  color: #eee;
+h1 {
+  color: rgba(0, 0, 0, 0.774);
+  margin: 10px;
+}
+ h2 {
+  color: black;
+  margin: 10px;
 }
 
 h3 {
   padding-bottom: 2rem;
   color: #000105;
   font-size: 1.8rem;
+  margin: 10px;
 }
 
 button {
