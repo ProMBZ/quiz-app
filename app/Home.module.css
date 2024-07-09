@@ -1,0 +1,46 @@
+/* Home.module.css */
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Light background color */
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff; /* White background for container */
+  border-radius: 12px; /* Increased border radius for a more rounded look */
+  padding: 60px; /* Increased padding for more space inside the card */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Slightly stronger box shadow */
+  max-width: 600px; /* Limit maximum width of the card */
+  width: 90%; /* Responsive width for smaller screens */
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #333333; /* Dark text color */
+}
+
+.button {
+  background-color: #4CAF50; /* Green button background */
+  color: white;
+  border: none;
+  padding: 14px 28px; /* Increased padding for larger button */
+  font-size: 1.3rem; /* Slightly larger font size */
+  border-radius: 6px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #666666; /* Gray text color for footer */
+}
